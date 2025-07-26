@@ -1,0 +1,43 @@
+/*h1{
+    text-align:center;
+    text-decoration: line-through;
+    color:blue;
+    font-family:'Courier New', Courier, monospace;
+    font-size:large;
+    font-style: oblique;
+    line-height: 200px;
+}
+h2{
+    text-align: center;
+    text-decoration: overline;
+    color:cyan;
+    font-family: Helvetica;
+    font-size: medium;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    color:hotpink;
+    font-family:Arial;
+    font-size: x-small;
+}*/
+
+h1{
+    text-align:center; 
+    color:blue;
+    color:blue;
+    background-color: black;
+    font-family:'Courier New';
+}
+button{
+    size: 500%;
+}
+body{
+    text-align: center;
+    background-image: url(bud.webp);
+    background-size:cover;
+   
+}
+.mrec{
+    align-content: center;
+}

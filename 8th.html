@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text shadow</title>
+    <style>
+        h1{
+            text-shadow: 4px 4px 4px rgb(46, 151, 36);
+            color:rgb(203, 115, 33)
+        }
+        h2{
+            text-shadow: 4px 4px 4px palevioletred;
+            color:blueviolet;
+        }
+        .container{
+            text-align: center;
+            width:250px; 
+            height: 200px;
+            margin:100px;
+            border: 1px solid black;
+            background-color: rgb(10, 218, 218);
+            /*transform: rotate(20deg);  */
+           /* transition:width 4s;*/
+            transition: transform 2s;
+            /*transform: skew(50deg);*/
+        }
+        .container:hover{
+            width:500px;
+           /* transform: rotate(90deg);
+            transform: skew(50deg);*/
+            transform: scale(0.8);
+        }
+        .move:hover{
+            transform:translateX(400px);
+            transition: transform 3s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Shadow 1</h1>
+    <h2>Text Shadow 2</h2>
+    <div class='container'>
+        <h3 >Transform nd transition property</h3>
+        
+    </div>
+    <img src='lamb.jpg' width="250px" height="250px" class='move'>
+</body>
+</html>
